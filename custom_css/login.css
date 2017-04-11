@@ -1,0 +1,114 @@
+.form-c {
+	margin-top:55px;
+}
+.btn-close {
+	margin-top: 20px;
+}
+.input-field {
+	margin-top: 50px;
+}
+
+.content {
+	margin-top:0px;
+	position: absolute;
+}
+
+.content input {
+	font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    
+}
+/*.checkbox input{
+	margin-top:10px;
+}*/
+
+.test
+{	animation-name: bummer;
+     position: fixed;
+    -webkit-animation: bummer 1s;
+    animation: bummer 1s;
+    -webkit-transform: scale(0,0); 
+    transform: scale(0,0);
+    -webkit-animation-fill-mode: forwards;
+    /*animation-fill-mode: forwards;*/
+}
+@-webkit-keyframes bummer {
+    50%{
+      -webkit-transform:scale(1,1);
+    }
+    100% {
+        -webkit-transform: scale(0.90,0.90); 
+    }
+}
+
+@keyframes bummer {
+    
+    30%{
+      -webkit-transform:scale(1,1);
+    }
+    60% {
+        -webkit-transform: scale(0.89,0.89); 
+    }
+    80% {
+        -webkit-transform: scale(0.91,0.91); 
+    }
+    100% {
+        -webkit-transform: scale(0.90,0.90); 
+    }
+}
+
+.field {
+	
+	border-bottom-width:3px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #ffa800;
+}
+.logo{
+	/*margin:0px;*/
+	margin-left:450px;
+	margin-top:100px;
+	
+}
+.image {
+	background-image: url(../images/students.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+.image h2 {
+	color: white;
+	font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+#mainNav {
+	background-color:#f44556;
+}
+
+.footer {
+	background-color: #464646;
+}
+.footer  h4 {
+	color: white;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+}
+.footer  h3 {
+	color: white;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+}
+.footer li {
+	color: white;
+	list-style: none;
+}
+.footer a {
+	text-decoration:none;
+   font-family: 'Libre Franklin', sans-serif;
+   color: white;
+
+}

@@ -1,0 +1,168 @@
+body{
+
+}
+
+.bgImage {
+	background-image: url(../images/students.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 400px;
+	background-attachment: fixed;
+}
+.bgImage  h1{
+   margin-top: 120px;
+   color: white; 
+  font-family: 'Pavanam', sans-serif;
+}
+.btn-close{
+	margin-top: 5px;
+}
+.modal-body input {
+   margin-top:5px;
+}
+
+.modal-body button {
+   margin-top:5px;
+}
+/*@media (min-width: 360px){
+	 .bgImage {
+		background-image: url(../images/students.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 400px;
+	 }
+}*/
+
+/*@media (max-width:400px){
+	 .bgImage {
+		background-image: url(../images/m1.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 400px;
+	 }
+}*/
+.test
+{	animation-name: bummer;
+     position: fixed;
+    -webkit-animation: bummer 1s;
+    animation: bummer 1s;
+    -webkit-transform: scale(0,0); 
+    transform: scale(0,0);
+    -webkit-animation-fill-mode: forwards;
+    /*animation-fill-mode: forwards;*/
+}
+@-webkit-keyframes bummer {
+    50%{
+      -webkit-transform:scale(1,1);
+    }
+    100% {
+        -webkit-transform: scale(0.90,0.90); 
+    }
+}
+
+.hidden{
+    visibility:hidden;
+}
+.show{
+    visibility:visible;
+}
+
+@keyframes bummer {
+    
+    30%{
+      -webkit-transform:scale(1,1);
+    }
+    60% {
+        -webkit-transform: scale(0.89,0.89); 
+    }
+    80% {
+        -webkit-transform: scale(0.91,0.91); 
+    }
+    100% {
+        -webkit-transform: scale(0.90,0.90); 
+    }
+}
+.size a,i {
+   text-decoration:none;
+   font-family: 'Libre Franklin', sans-serif;
+   color: white;
+
+}
+#mainNav {
+	background-color:#f44556;
+}
+.no-padding {
+	padding:0px;
+}
+.no-margin {
+	margin: 0px;
+}
+.font {
+	font-family:'Libre Franklin', sans-serif; 
+}
+.font dt {
+	font-weight: bold;
+	font-size: 20px;
+	color:#f44556; 
+	/*font-family:'Libre Franklin', sans-serif;*/
+}
+.font dd {
+	
+	font-size:20px;
+	font-family: 'Pavanam', sans-serif;
+	/*font-weight: bold;*/
+	/*font-family: 'Playfair Display', serif;*/
+}
+.goTOClass{
+   background-color: #f44556;
+   height: 50px;
+   width: 200px;
+  /* margin-left: 360px;*/
+   margin-top:50px;
+   color: white;
+   position: absolute;
+   font-family: 'Libre Franklin', sans-serif;
+}
+.schedule {
+	background-color: #f44556;
+   height: 50px;
+   width: 200px;
+  /* margin-left: 360px;*/
+   margin-top:50px;
+   color: white;
+   position: absolute;
+   font-family: 'Libre Franklin', sans-serif;
+}
+.footer {
+	background-color: #464646;
+}
+.footer  h4 {
+	color: white;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+}
+.footer  h3 {
+	color: white;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+}
+.footer li {
+	color: white;
+	list-style: none;
+}
+.footer a {
+	text-decoration:none;
+   font-family: 'Libre Franklin', sans-serif;
+   color: white;
+
+}
+.color {
+	color: white;
+}
+.copyright {
+	text-align: center;
+	background-color: #252525;
+	width: 100%;
+	padding: 10px;
+	font-family: 'Libre Franklin', sans-serif;
+}

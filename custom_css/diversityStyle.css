@@ -1,0 +1,160 @@
+@import "compass/css3";
+
+body{
+}
+.center {
+	margin: 500px ;
+}
+
+.name {
+	
+	background-image: url(../images/bgimage.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/*.nam {
+	
+	background-image: url(../images/mobilebg.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}*/
+
+/*@media (min-width: 400px) {
+   .name {
+	  background-image: url(../images/mobilebg.png);
+	  background-repeat: no-repeat;
+	  background-size: 100%;
+    }
+}*/
+
+/*inserting font here*/
+
+/*.style {
+	color:white;`
+	margin-top: 300px;
+	position: absolute;
+
+}*/
+/*styling text here*/
+.test
+{	animation-name: bummer;
+     position: fixed;
+    -webkit-animation: bummer 1s;
+    animation: bummer 1s;
+    -webkit-transform: scale(0,0); 
+    transform: scale(0,0);
+    -webkit-animation-fill-mode: forwards;
+    /*animation-fill-mode: forwards;*/
+}
+@-webkit-keyframes bummer {
+    50%{
+      -webkit-transform:scale(1,1);
+    }
+    100% {
+        -webkit-transform: scale(0.90,0.90); 
+    }
+}
+
+@keyframes bummer {
+    
+    30%{
+      -webkit-transform:scale(1,1);
+    }
+    60% {
+        -webkit-transform: scale(0.89,0.89); 
+    }
+    80% {
+        -webkit-transform: scale(0.91,0.91); 
+    }
+    100% {
+        -webkit-transform: scale(0.90,0.90); 
+    }
+}
+.text_style {
+	font-size: 50px;
+	color: white;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+}
+
+.text {
+	color: white;
+	font-family: 'Libre Franklin', sans-serif;
+}
+.margin {
+	margin-top: 240px;
+}
+/*styling btn here*/
+.styleBtn{
+   background-color: #3c8dbd;
+   height: 50px;
+   width: 200px;
+  /* margin-left: 360px;*/
+   margin-top: 20px;
+   font-size: 0px;
+   color: white;
+   position: absolute;
+   font-family: 'Libre Franklin', sans-serif;
+}
+/*transparent background here*/
+.blackbg {
+	background:rgba(1,1,1,0.5);
+	margin:0px;
+	height: 600px;
+}
+
+
+/*styling courses.html here*/
+.boxes {
+	height: 200px;
+	border-radius:10px;
+	color: white;
+	font-family: 'Libre Franklin', sans-serif;
+}
+.boxes h3 {
+	margin-top: 130px;
+	position: absolute;
+	margin-left: 60px;
+}
+.marg{
+	margin-top: 50px;
+}
+
+
+
+i {
+    text-align:center;
+    color: white;
+    font-size: 100px;
+    margin: 15px;
+}
+.box1 {
+   background:rgba(244,69,86,0.75);
+}
+
+.box2 {
+   background:rgba(249,149,59,0.75);
+}
+.box3 {
+   background:rgba(0,169,157,0.75);
+}
+.box4 {
+   background:rgba(17,94,94,0.75);
+}
+.box5 {
+   background:rgba(57,181,74,0.75)
+}
+.box6 {
+   background:rgba(245,135,69,0.75)
+}
+
+.circle {
+
+	border-radius: 100%;
+	border:2px solid white;
+	height: 100px;
+	width: 100px;
+	margin:30px 100px;
+	position: absolute;
+}
